@@ -21,7 +21,7 @@ bot.onText(/\/ajith/, (msg) => {
   console.log("chatId = ", chatId, userName + "\n");
   bot.sendMessage(
     chatId,
-    `Hello!  Ajith bhai randhit toh randwa hai tera userId = ${chatId} This bot can show you the weather and time for any city. To use it, please choose an option below:`
+    `suprise suprise ${chatId} This bot can show you the weather and time for any city. To use it, please choose an option below:`
   );
 });
 
